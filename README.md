@@ -22,4 +22,4 @@ To start learning Go, ensure you have Go installed on your system. This tutorial
 2. **Set Up Environment Variables**: After installing Go, ensure the `GOPATH` and `PATH` variables are properly set. You can find more information in the [Go documentation](https://golang.org/doc/gopath_code.html).
 3. **Clone the Repository**: If you're following along with a tutorial, clone this repository to your local environment:
    ```bash
-   git clone https://github.com/yourusername/golang-tutorials.git
+   git clone https://github.com/agichimu/Golang-Tutorials.git
