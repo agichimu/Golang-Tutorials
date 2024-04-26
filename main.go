@@ -1,8 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+	_ "strings"
+)
 
 func main() {
+	String()
 
 	/*Variables are used to Store data*/
 
@@ -32,4 +37,15 @@ func main() {
 	/*
 		%v holds place of a variable in a formatted string
 	*/
+}
+
+func String() {
+	/*
+		Go strings are immutable which means when created they can not be modified
+	*/
+	stg := "Hello, World!"
+	length := len(stg)
+	fmt.Println("Length =", length)
+	fmt.Println(strings.ToUpper(stg)) //converts to uppercase
+	fmt.Println(strings.ToLower(stg)) //converts to lowercase
 }
