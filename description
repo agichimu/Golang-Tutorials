@@ -10,3 +10,11 @@
 	1.var variablename type = value
 	2.variablename := value
 */
+
+The const keyword declares the variable as "constant", which means that it is unchangeable and read-only.
+
+Verb	Description
+%v	    Prints the value in the default format
+%#v	    Prints the value in Go-syntax format
+%T	    Prints the type of the value
+%%	    Prints the % sign
