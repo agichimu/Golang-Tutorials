@@ -1,6 +1,7 @@
 package main
 
 func main() {
-	helloWorld()
-	variables()
+	// helloWorld()
+	// variables()
+	myName()
 }
