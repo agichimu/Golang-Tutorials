@@ -17,10 +17,16 @@ func getUserAge() {
 	} else {
 		fmt.Println("Toddler")
 	}
-	//	Pointers - holds memory address of a variable
+	switch {
+	case age >= userAge:
+		fmt.Println("You are", age, "years old", "You can attend Parties!")
+	case age < userAge:
+		fmt.Println("You are", age, "years old", "You can attend Parties!")
+	}
 
-	// speeding()
 }
+
+//	Pointers - holds memory address of a variable
 
 func speeding() {
 	isFast := false
@@ -33,4 +39,20 @@ func speeding() {
 	} else {
 		fmt.Println("Not Speeding")
 	}
+
+}
+
+func week() {
+
+	isWeekend := false
+	isHoliday := false
+
+	if isWeekend && isHoliday {
+		fmt.Println("Its a holiday on a weekend ")
+	} else if isWeekend && !isHoliday {
+		fmt.Println("Its a regular weekend ")
+	} else {
+		fmt.Println("Its a regular Week Day")
+	}
+
 }
