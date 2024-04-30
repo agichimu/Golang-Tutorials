@@ -3,5 +3,7 @@ package main
 func main() {
 	// helloWorld()
 	// variables()
-	myName()
+	// goconstants()
+	// myName()
+	getUserAge()
 }
