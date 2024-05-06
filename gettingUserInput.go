@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func getUserAge() {
 
@@ -16,12 +19,6 @@ func getUserAge() {
 		fmt.Println("You are", age, "years old", "You can not attend Parties!")
 	} else {
 		fmt.Println("Toddler")
-	}
-	switch {
-	case age >= userAge:
-		fmt.Println("You are", age, "years old", "You can attend Parties!")
-	case age < userAge:
-		fmt.Println("You are", age, "years old", "You can attend Parties!")
 	}
 
 }
@@ -44,7 +41,7 @@ func speeding() {
 
 func week() {
 
-	isWeekend := false
+	isWeekend := false // bool
 	isHoliday := false
 
 	if isWeekend && isHoliday {
@@ -55,4 +52,21 @@ func week() {
 		fmt.Println("Its a regular Week Day")
 	}
 
+}
+
+func timeNow() {
+	const user string = "Alexander"
+	tme := time.Now()
+	fmt.Println(tme)
+
+	switch {
+	case tme.Hour() < 12:
+		fmt.Println("Good Morning,", user)
+	case tme.Hour() >= 12 && tme.Hour() < 17:
+		fmt.Println("Good Afternoon,", user)
+	case tme.Hour() >= 17:
+		fmt.Println("Good Evening,", user)
+	default:
+		fmt.Println("What's the time ?,", user)
+	}
 }

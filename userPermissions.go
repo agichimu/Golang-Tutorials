@@ -23,6 +23,7 @@ func permissions() {
 	}
 
 	/*Calling functions*/
+
 	looping()
 
 }

@@ -2,7 +2,7 @@ package main
 
 func main() {
 
-	// helloWorld()
+	//helloWorld()
 
 	// variables()
 
@@ -14,6 +14,15 @@ func main() {
 
 	//week()
 
-	permissions()
+	//permissions()
 
+	//game()
+
+	//arraysInGo()
+
+	//goFunctions()
+
+	timeNow()
+
+	variablesAndDatatypes()
 }
